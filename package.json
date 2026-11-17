@@ -1,0 +1,8 @@
+{
+  "name": "statusboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs", "postinstall": "node scripts/setup.mjs" },
+  "dependencies": { "pg": "^8.13.0" }
+}
